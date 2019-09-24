@@ -9,7 +9,8 @@ variables are available:
     VOLUME_DIR_PUBLIC_PERMISSION=755
     VOLUME_DIR_PRIVATE_PERMISSION=700
 
-Being able to set the proper non-standard file permissions can be critical in certain environments.
+Being able to set the proper non-standard file permissions can be critical in certain environments. 
+A specific example is deploying to a filesystem using ACLs where it is essential that directories and files are group writable.
 
 ## Install
 
