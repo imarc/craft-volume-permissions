@@ -9,7 +9,7 @@ variables are available:
     VOLUME_DIR_PUBLIC_PERMISSION=755
     VOLUME_DIR_PRIVATE_PERMISSION=700
 
-Being able to setting the proper non-standard file permissions can be critical in certain environments.
+Being able to set the proper non-standard file permissions can be critical in certain environments.
 
 ## Install
 
