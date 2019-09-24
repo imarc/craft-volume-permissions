@@ -1,6 +1,7 @@
 {
-    "name": "imarc/craft3-volume-permissions",
+    "name": "imarc/craft-volume-permissions",
     "description": "Set the permissions for Craft 3 local volumes",
+	"keywords": ["craft3", "craft", "volume", "module"],
     "type": "library",
     "license": "MIT",
     "authors": [
