@@ -1,0 +1,20 @@
+{
+    "name": "imarc/craft3-volume-permissions",
+    "description": "Set the permissions for Craft 3 local volumes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Turcotte",
+            "email": "jeff@imarc.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"require": {
+		"php": ">=5.4.0",
+		"craftcms/cms": ">=3.0.0"
+	},
+    "autoload": {
+        "psr-4": {"Imarc\\Craft\\Modules\\": "src/"}
+    }
+}
