@@ -11,6 +11,26 @@ variables are available:
 
 Being able to setting the proper non-standard file permissions can be critical in certain environments.
 
+## Install
+
+Install in your Craft 3 project using composer:
+
+    composer require imarc/craft-volume-permissions
+
+Then enable the module within your `config/app.php` file:
+
+    <?php
+    return [
+        'modules' => [
+            'volume-permissions' => \Imarc\Craft\Modules\VolumePermissions::class,
+        ],
+        'bootstrap' => [
+            'volume-permissions',
+        ],
+    ];
+
+Then use the environment variables to configure the permissions.
+
 ### Dirty Hack?
 
 This module is a bit of a hack as it uses Reflection to alter Flysystem's
