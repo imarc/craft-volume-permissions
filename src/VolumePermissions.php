@@ -1,6 +1,8 @@
 <?php
 namespace Imarc\Craft\Modules;
 
+use Craft;
+
 
 /**
  * Volume Permissions module class.
@@ -15,6 +17,7 @@ class VolumePermissions extends \yii\base\Module
      */
     public function init()
     {
+    	Craft::setAlias('@Imarc', __DIR__);
         $prop = new \ReflectionProperty('League\Flysystem\Adapter\Local', 'permissions');
         $prop->setAccessible(true);
         $prop->setValue([
