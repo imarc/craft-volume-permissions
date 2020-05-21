@@ -4,10 +4,10 @@ This is a Craft 3 module which allows settings the default permissions
 of all local volumes with environment variables. The following environment
 variables are available:
 
-    VOLUME_FILE_PUBLIC_PERMISSION=644
-    VOLUME_FILE_PRIVATE_PERMISSION=600
-    VOLUME_DIR_PUBLIC_PERMISSION=755
-    VOLUME_DIR_PRIVATE_PERMISSION=700
+    VOLUME_FILE_PUBLIC_PERMISSION=664
+    VOLUME_FILE_PRIVATE_PERMISSION=660
+    VOLUME_DIR_PUBLIC_PERMISSION=775
+    VOLUME_DIR_PRIVATE_PERMISSION=770
 
 Being able to set the proper non-standard file permissions can be critical in certain environments. 
 A specific example is deploying to a filesystem using ACLs where it is essential that directories and files are group writable.
